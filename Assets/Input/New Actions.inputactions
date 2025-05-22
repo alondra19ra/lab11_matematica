@@ -1,0 +1,54 @@
+{
+    "name": "New Actions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "93c78746-7f49-4837-aae3-a3823e9b5481",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "ead5223e-c851-4165-a5da-b973704c3b99",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Descent",
+                    "type": "Button",
+                    "id": "be35f86c-4eb3-4ba3-9875-33b5614ff710",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0787443c-4ca4-4a55-a8e9-f603a3a8defe",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "715af239-4beb-4688-963e-ca484b7b1d0a",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Descent",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
